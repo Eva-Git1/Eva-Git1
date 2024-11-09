@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testeur de Mot de Passe</title>
+    <script type="module" src="style.css"></script>
+</head>
+<style>
+html{text-align: center;}
+</style>
+<body>
+<h1>Testeur de mot de passe!</h1>
+<img src="file:///F:/Mati%C3%A8re/D%C3%A9veloppement%20web/Projet%20CDA%20%202024-2025/Eva/Javascript/testeur%20de%20mot%20de%20passe/image/Js.logo.jpeg"alt"Js.logo.jpeg "/>
+
+    <div class="container">
+        <h2>Testeur de Mot de Passe</h2>
+        <input type="password" id="password" placeholder="Entrez votre mot de passe">
+        <p id="strength">Force : <span id="strengthValue">Inconnu</span></p>
+    </div>
+    
+    <script>
+        const passwordInput = document.getElementById('password');
+        const strengthValue = document.getElementById('strengthValue');
+    
+        passwordInput.addEventListener('input', function() {
+            const password = passwordInput.value;
+            const strength = getPasswordStrength(password);
+            strengthValue.textContent = strength;
+        });
+    
+        function getPasswordStrength(password) {
+            let strength = "Faible";
+            if (password.length >= 8) {
+                let hasUpperCase = /[A-Z]/.test(password);
+                let hasLowerCase = /[a-z]/.test(password);
+                let hasNumbers = /[0-9]/.test(password);
+                let hasSpecial = /[!@#$%^&*(),.?":{}|<>]/.test(password);
+    
+                const strengthPoints = [hasUpperCase, hasLowerCase, hasNumbers, hasSpecial].filter(Boolean).length;
+    
+                if (strengthPoints >= 3 && password.length >= 10) {
+                    strength = "Fort";
+                } else if (strengthPoints >= 2) {
+                    strength = "Moyen";
+                }
+            }
+            return strength;
+        }
+    </script>
+
+</body>
+</html>
