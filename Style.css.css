@@ -1,0 +1,87 @@
+//* première syntax.
+<style>
+.navbar__logo .icon,
+.navbar__center .navbar__logo:after {
+    color: #2990ea !important;
+}
+
+.header-prompt .navbar__link--login,
+.header-prompt .navbar__link.navbar__link--signup {
+  color: #666C70 !important;
+}
+.header-prompt .navbar__link.navbar__link--signup {
+  box-shadow: inset 0 0 0 2px #C9CDCF !important;
+}
+</style>
+//*Deuxième syntax.
+<link id="wsite-base-style" rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/sites.css?buildTime=1731026547">
+<link rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/old/fancybox.css?1731026547">
+<link rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/social-icons.css?buildtime=1731026547" media="screen,projection">
+<link rel="stylesheet" type="text/css" href="/files/main_style.css?1731075717" title="wsite-theme-css">
+<link href="//cdn2.editmysite.com/fonts/Karla/font.css?2" rel="stylesheet" type="text/css">
+<link href="//cdn2.editmysite.com/fonts/Roboto_Mono/font.css?2" rel="stylesheet" type="text/css">
+<link href="//cdn2.editmysite.com/fonts/Oswald/font.css?2" rel="stylesheet" type="text/css">
+*// Deuième syntax.
+<style type="text/css">
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+Troisième syntax.
+<style type="text/css">
+@font-face {
+    font-family: SQMarket-Medium;
+    font-style: normal;
+    font-weight: 500;
+    src:
+        url("//cdn2.editmysite.com/fonts/SQ_Market/sqmarket-medium.woff2") format("woff2"),
+        url("//cdn2.editmysite.com/fonts/SQ_Market/sqmarket-medium.woff") format("woff");
+}
+</style>
+//*Quatrième syntax.
+<style type="text/css">.customer-accounts-app__body[data-v-7ef42737]{width:100%}.customer-accounts-app__modal-wrapper[data-v-7ef42737]{position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:17;display:flex;flex-direction:column;justify-content:center;align-items:center;background:rgba(0,0,0,.25)}.customer-accounts-app__modal[data-v-7ef42737]{width:580px;box-sizing:border-box;max-height:100%;min-height:415px;overflow-y:auto;z-index:18;padding:24px;background:#fff;display:flex}.wsite-theme-dark .customer-accounts-app__modal-wrapper[data-v-7ef42737]{background:hsla(0,0%,100%,.25)}.wsite-theme-dark .customer-accounts-app__modal[data-v-7ef42737]{background:#000}@media (max-width:750px){.customer-accounts-app__modal[data-v-7ef42737]{width:100%;height:100%}}</style><style type="text/css">.loading[data-v-db79aa1c]{display:flex;width:100%;align-items:center;justify-content:center;margin:15px 0}</style><style type="text/css">.page-header__wrapper[data-v-ed59fae0]{display:flex;flex-direction:row;align-items:center;justify-content:space-between}.page-header__text[data-v-ed59fae0]{margin:0 32px 0 0}.page-header__divider[data-v-ed59fae0]{height:1px;width:100%;margin:24px 0;background:rgba(0,0,0,.1)}</style><style type="text/css">.form-field[data-v-2b04d498]{margin:16px 0}.form-field__label[data-v-2b04d498]{display:flex;flex-direction:column}.form-field__title[data-v-2b04d498]{margin-bottom:8px;font-size:90%;color:#3b526d}.wsite-theme-dark .form-field__title[data-v-2b04d498]{color:#dfe6ee}.form-field__error[data-v-2b04d498]{margin-top:14px}</style><style type="text/css">.field-error[data-v-338d8d38]{color:#ff2825}</style><style type="text/css">.form-instructions[data-v-8ddff154]{margin-bottom:24px}</style><style type="text/css">.site-input[data-v-4c05aa90]{border:1px solid #dbdbdb;padding:8px;border-radius:2px}.site-input__is-invalid[data-v-4c05aa90]{border:1px solid #ff2825}</style><style type="text/css">.actions-row[data-v-136b380e]{margin-top:24px;display:flex;flex-direction:row;justify-content:space-between;align-items:center}.actions-row div[data-v-136b380e]:first-child{margin-right:16px}</style><style type="text/css">.back-button[data-v-fe280eac]{display:flex;flex-direction:row;align-items:center}.back-button__icon[data-v-fe280eac]{margin:0 8px 0 0}</style><style type="text/css">p[data-v-6cc325c4]{font-weight:700}.order-confirmation__checkbox[data-v-6cc325c4]{margin-right:6px}.order-confirmation__success-message[data-v-6cc325c4]{display:flex;flex-direction:row;align-items:center}</style><style type="text/css">.register__privacy-policy[data-v-0761b96f]{margin:24px 0;font-size:small}</style><style type="text/css">.customer-accounts-app__body[data-v-55d84bd4]{width:100%}.customer-accounts-app__modal-wrapper[data-v-55d84bd4]{position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:17;display:flex;flex-direction:column;justify-content:center;align-items:center;background:rgba(0,0,0,.25)}.customer-accounts-app__modal[data-v-55d84bd4]{width:580px;box-sizing:border-box;max-height:100%;min-height:415px;overflow-y:auto;z-index:18;padding:24px;background:#fff;display:flex}.wsite-theme-dark .customer-accounts-app__modal-wrapper[data-v-55d84bd4]{background:hsla(0,0%,100%,.25)}.wsite-theme-dark .customer-accounts-app__modal[data-v-55d84bd4]{background:#000}@media (max-width:600px){.customer-accounts-app__modal[data-v-55d84bd4]{width:100%;height:100%}}</style><style type="text/css">.account-details__wrapper[data-v-398277ef]{width:100%}.account-details__group[data-v-398277ef]{margin-bottom:24px;text-align:left}.account-details__table-container[data-v-398277ef]{overflow:auto}.account-details__title[data-v-398277ef]{text-align:left;margin-bottom:6px}.account-details__log-out[data-v-398277ef]{cursor:pointer}.account-details__error[data-v-398277ef]{margin:36px 0;text-align:left}.error[data-v-398277ef]{color:#ff2825}</style><style type="text/css">.section-header__wrapper[data-v-30a09418]{display:flex;flex-direction:row;align-items:center;justify-content:space-between}.section-header__text[data-v-30a09418]{margin:24px 0}</style><style type="text/css">.empty-content-area__container[data-v-d17db2d0]{display:flex;flex-direction:row;align-items:center;justify-content:center;margin-bottom:32px;width:100%;min-height:80px;background:#f2f2f2}.wsite-theme-dark .empty-content-area__container[data-v-d17db2d0]{background:#000}</style><style type="text/css">.order-details__table[data-v-4601454e]{width:100%;margin-top:12px;margin-bottom:36px;empty-cells:show;border-collapse:collapse;border-spacing:0;border:none}.order-details__table th[data-v-4601454e]{margin:0;padding:16px;text-align:left;background:#f2f2f2}.wsite-theme-dark .order-details__table th[data-v-4601454e]{background:#000}.order-details__table td[data-v-4601454e]{margin:0;padding:16px;text-align:left}</style><style type="text/css">.shipping-address__wrapper[data-v-0b54f770]{text-align:left;width:100%}</style><style type="text/css">.reset-password__link[data-v-4f820709]{cursor:pointer}</style><link href="//cdn2.editmysite.com/css/free-footer-v3.css?buildtime=1733442761" rel="stylesheet"><meta name="Reverso extension" content="3.6.298" id="Reverso_extension___elForCheckedInstallExtension"></head>
+<body class="header-page wsite-theme-light wsite-page-new-sales header-sticky banner-overlay-on reveal-content utils-hidden more-nav-on" style="padding-top: 50px; min-height: 100%; position: relative; height: auto !important; padding-bottom: 45px !important;"><div class="wrapper">
+
+
+
